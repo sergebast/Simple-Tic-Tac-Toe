@@ -7,9 +7,13 @@ def get_cols(input_str):
     return c
 
 
+def matrix(input_str):
+    return [input_str[:3], input_str[3:6], input_str[-3:]]
+
+
 def combinations(input_str):
     return get_cols(input_str)\
-           + [input_str[:3], input_str[3:6], input_str[-3:]]\
+           + matrix(input_str)\
            + [[input_str[0], input_str[4], input_str[-1]],
               [input_str[2], input_str[4], input_str[6]]]
 
