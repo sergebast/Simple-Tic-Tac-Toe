@@ -1,7 +1,8 @@
 # write your code here
-S = input().strip()
+s = list(input().strip())
+
 print("---------")
-print("|", S[0], S[1], S[2], "|")
-print("|", S[3], S[4], S[5], "|")
-print("|", S[6], S[7], S[8], "|")
+print("|", s[0], s[1], s[2], "|")
+print("|", s[3], s[4], s[5], "|")
+print("|", s[6], s[7], s[8], "|")
 print("---------")
